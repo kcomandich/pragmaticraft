@@ -1,0 +1,259 @@
+img {
+  margin: 0;
+}
+
+.breaker {
+  clear: both; }
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+  background-color: #dbdbdb;
+  font-size: 90%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.0; }
+
+h1 {
+  font-size: 140%;
+  font-weight: bold; }
+
+h2 {
+  font-size: 100%;
+  font-weight: bold; }
+
+h3 {
+  font-size: 90%;
+  font-weight: bold;
+  font-style: italic; }
+
+
+
+table, thead, tbody, tfoot, tr, td, th {
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 0; }
+
+code, kbd, pre {
+  font-family: arial, helvetica, sans-serif;
+  background-color: #ebfff3; }
+
+code, kbd {
+  font-style: italic;
+  color: #485852;
+  white-space: nowrap; }
+
+code {
+  padding: 0 0.2em; }
+
+kbd {
+  display: block;
+  margin: 0.2em;
+  padding: 0.2em; }
+
+p {
+  text-align: left;
+  margin-top: 0.25em;
+  line-height: 1.2; }
+
+ol, ul {
+  line-height: 1.2; }
+
+a[name] {
+  text-decoration: none;
+  color: inherit; }
+
+a[href] {
+  color: #b0612c;
+  text-decoration: none;
+  border-bottom: 1px dotted #b0612c; }
+  a[href]:hover {
+    color: #b0612c;
+    background-color: #f7f4b7; }
+
+.caps {
+  line-height: normal;
+  font-variant: normal;
+  font-weight: inherit;
+  font-size: 100%;
+  letter-spacing: normal;
+  text-transform: none; }
+
+#header {
+  background-color: black;
+  padding: 1em;
+  font-style: italic; }
+  #header .logo {
+    margin: 0;
+    padding: 0;
+    font-size: 180%; }
+    #header .logo .color1 {
+      color: #FFF; }
+    #header .logo .color2 {
+      color: #96b9ab; }
+    #header .logo a:hover {
+      background-color: transparent; }
+  #header .tagline {
+    color: #9b9b9b;
+    font-size: 120%;
+    margin: 0;
+    padding: 0; }
+  #header table, #header tr, #header td, #header th {
+    border: none; }
+  #header table {
+    width: 100%; }
+    #header table td {
+      vertical-align: baseline; }
+  #header a {
+    border-bottom: none; }
+
+#menu_and_page_content {
+  margin-top: 1em; }
+  #menu_and_page_content table td {
+    vertical-align: top; }
+
+#menu {
+  font-size: 95%;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 1.5em;
+  font-weight: bold; }
+  #menu ul {
+    margin: 0;
+    padding: 0; }
+    #menu ul li {
+      text-align: left;
+      list-style-type: none;
+      margin: 0.5em;
+      margin-left: 0; }
+      #menu ul li a {
+        border-bottom: none;
+        padding: 0.1em 0.5em;
+        background-color: #dbdbdb;
+        display: block;
+        width: 8.5em; }
+        #menu ul li a:hover {
+          background-color: #f7f4b7; }
+
+#page_content {
+  padding: 0.5em 2em 1.5em 2em; }
+  #page_content h1, #page_content h2, #page_content h3, #page_content h4, #page_content h5 {
+    margin: 1em 0 0 -1em; }
+    #page_content h1:first-child, #page_content h2:first-child, #page_content h3:first-child, #page_content h4:first-child, #page_content h5:first-child {
+      margin-top: 0em; }
+  #page_content h1 {
+    color: #637870; }
+  #page_content h2 {
+    color: #637870; }
+  #page_content h3 {
+    color: #485852;
+    margin-left: -0.75em; }
+  #page_content p {
+    margin: 1em 0 0 0; }
+    #page_content p:first-child {
+      margin-top: 0; }
+  #page_content h1 + p, #page_content h2 + p, #page_content h3 + p, #page_content h4 + p, #page_content h5 + p {
+    margin-top: 0.75em; }
+  #page_content p + h1, #page_content p + h2, #page_content p + h3, #page_content p + h4, #page_content p + h5 {
+    margin-top: 1.25em; }
+  #page_content ul li, #page_content ol li {
+    padding-top: 0.3em; }
+  #page_content ul {
+    margin: 0.5em 0 0 1em; }
+  #page_content ol {
+    margin: 0.5em 0 0 2em; }
+  #page_content p + ul, #page_content p + ol {
+    margin-top: 0.25em; }
+  #page_content dl {
+    margin: 1em 0 0 0; }
+  #page_content .content {
+    margin: 0 0 0.75em 1em;
+    border: 1px dotted red; }
+  #page_content .showcase {
+    margin: 1em 0 0 0; }
+    #page_content .showcase .heading {
+      margin-left: 0em;
+      color: #485852;
+      font-weight: bold;
+      vertical-align: bottom;
+      white-space: nowrap;
+      font-size: 100%;
+      font-style: italic; }
+  #page_content .news .stories .story {
+    margin-top: 1em; }
+    #page_content .news .stories .story .title {
+      font-size: 110%;
+      font-weight: bold;
+      color: #b0612c; }
+    #page_content .news .stories .story .date {
+      font-style: italic;
+      font-size: 85%;
+      color: #787878; }
+    #page_content .news .stories .story .text {
+      margin: 0.5em 0 0 2em; }
+  #page_content .driver_availability table, #page_content .driver_availability thead, #page_content .driver_availability tbody, #page_content .driver_availability tfoot, #page_content .driver_availability tr, #page_content .driver_availability td, #page_content .driver_availability th {
+    border: 1px solid #DDD; }
+  #page_content .driver_availability td, #page_content .driver_availability th {
+    text-align: center;
+    padding: 0.1em 0.2em; }
+  #page_content .driver_availability th {
+    background-color: #DEDEDE; }
+  #page_content .driver_availability td:first-child {
+    background-color: #EEE;
+    text-align: right; }
+  #page_content .driver_availability .title {
+    font-size: 110%; }
+  #page_content .driver_availability .key {
+    font-size: 90%;
+    font-style: italic; }
+  #page_content .driver_availability .l {
+    color: #787878;
+    font-style: italic; }
+  #page_content .scraped pre {
+    color: #e0eee0;
+    background-color: #103040;
+    font-size: 90%;
+    margin: 0.25em;
+    padding: 0.5em; }
+  #page_content #screenshots_section h3 {
+    margin-top: 1.5em; }
+  #page_content #screenshots_section h3 + p {
+    margin-top: 0.5em; }
+  #page_content #screenshots_section p {
+    padding: 0;
+    margin: 1em 0 0 0; }
+  #page_content #screenshots_section pre {
+    color: #e0eee0;
+    background-color: #103040;
+    font-size: 90%;
+    margin-top: 0.25em;
+    margin-bottom: 1em;
+    padding: 0.5em; }
+  #page_content #screenshots_section h3 {
+    padding-bottom: 0em;
+    margin-bottom: 0em; }
+
+#footer {
+  background-color: #dbdbdb;
+  padding-top: 1em;
+  text-align: center; }
+  #footer p {
+    font-style: italic;
+    color: #9b9b9b;
+    font-size: 85%;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; }
+  #footer a {
+    color: #7a948a;
+    border-bottom: 1px dotted #7a948a; }
+
+#everything {
+  background-color: white; }
